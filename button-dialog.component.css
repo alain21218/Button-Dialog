@@ -1,0 +1,31 @@
+.modal-danger .modal-header{
+    background:#c0392b;
+    color: white;
+    border-color:#c0392b;
+}
+
+.modal-danger .confirm {
+    background:#c0392b;
+    color: white;
+    border-color:#c0392b;
+}
+
+.modal-danger .close *{
+    color:white;
+}
+
+.modal-success .modal-header{
+    background:#27ae60;
+    color: white;
+    border-color:#27ae60;
+}
+
+.modal-success .confirm {
+    background:#27ae60;
+    color: white;
+    border-color:#27ae60;
+}
+
+.modal-success .close *{
+    color:white;
+}
