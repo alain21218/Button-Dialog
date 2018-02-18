@@ -8,6 +8,7 @@ import { Dialog } from './dialog';
 })
 export class ButtonDialogComponent implements OnInit {
 
+  @Input("class") class:string;
   @Input("model") model:Dialog;
   @Output("confirm") confirm = new EventEmitter<boolean>();
   @Output("cancel") cancel = new EventEmitter<boolean>();
